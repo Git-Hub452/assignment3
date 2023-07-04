@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1">
+         “I will change my color according to your choice”
+         </div>
+        
+         <input id="input1" placeholder="Enter a color">
+         <button onclick="changeTextcolor()">submit</button>
+    
+</body>
+<script>
+    function changeTextcolor(){
+    const div1=document.getElementById("div1")
+    const input1 = document.getElementById("input1").value;
+    div1.style.color=input1
+     }
+</script>
+</html>
